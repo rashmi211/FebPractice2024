@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MBSTest(failed)">
+    <classes>
+      <class name="practice.CW13_TestNgkey">
+        <methods>
+          <include name="test5"/>
+        </methods>
+      </class> <!-- practice.CW13_TestNgkey -->
+    </classes>
+  </test> <!-- MBSTest(failed) -->
+</suite> <!-- Failed suite [DemoSuite] -->
